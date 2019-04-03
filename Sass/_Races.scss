@@ -1,0 +1,47 @@
+h1 {
+    background-color: #fff;
+    padding: 30px 0px;
+    margin-top: 65px;
+    margin-left: 50px;
+    font-family: Formula1;
+}
+
+.races {
+    background-color: #fff;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+    .racer1 {
+        @include races ("../images/carreras/carrera1.jpg")
+    }
+
+    .racer2 {
+        @include races ("../images/carreras/carrera2.jpg")
+    }
+
+    .racer3 {
+        @include races ("../images/carreras/carrera3.jpg")
+    }
+
+    .racer4 {
+        @include races ("../images/carreras/carrera4.jpg")
+    }
+
+    .racer5 {
+        @include races ("../images/carreras/carrera5.jpg")
+    }
+
+    .racer6 {
+        @include races ("../images/carreras/carrera6.jpg")
+    }
+
+    .racer7 {
+        @include races ("../images/carreras/carrera7.jpg")
+    }
+
+    .racer8 {
+        @include races ("../images/carreras/carrera8.jpg")
+    }
+}

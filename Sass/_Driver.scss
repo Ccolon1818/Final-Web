@@ -1,0 +1,103 @@
+.titulo {
+    text-align: center;
+    font-family: Formula1;
+    font-size: 2.5rem;
+    font-weight: 100;
+    background-color: #fff;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.driver {
+    width: 100%;
+    background-color: #fff;
+
+    .wrapper {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 37px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .driver1 {
+            @include driver ("../images/pilotos/piloto1.jpg");
+        }
+
+        .driver2 {
+            @include driver ("../images/pilotos/piloto2.jpg");
+        }
+
+        .driver3 {
+            @include driver ("../images/pilotos/piloto3.jpg");
+        }
+
+        .driver4 {
+            @include driver ("../images/pilotos/piloto4.jpg");
+        }
+
+        .driver5 {
+            @include driver ("../images/pilotos/piloto5.jpg");
+        }
+
+        .driver6 {
+            @include driver ("../images/pilotos/piloto6.jpg");
+        }
+
+        .driver7 {
+            @include driver ("../images/pilotos/piloto7.jpg");
+        }
+
+        .driver8 {
+            @include driver ("../images/pilotos/piloto8.jpg");
+        }
+
+        .driver9 {
+            @include driver ("../images/pilotos/piloto9.jpg");
+        }
+
+        .driver10 {
+            @include driver ("../images/pilotos/piloto10.jpg");
+        }
+
+        .driver11 {
+            @include driver ("../images/pilotos/piloto11.jpg");
+        }
+
+        .driver12 {
+            @include driver ("../images/pilotos/piloto12.jpg");
+        }
+
+        .driver13 {
+            @include driver ("../images/pilotos/piloto13.jpg");
+        }
+
+        .driver14 {
+            @include driver ("../images/pilotos/piloto14.jpg");
+        }
+
+        .driver15 {
+            @include driver ("../images/pilotos/piloto15.jpg");
+        }
+
+        .driver16 {
+            @include driver ("../images/pilotos/piloto16.jpg");
+        }
+
+        .driver17 {
+            @include driver ("../images/pilotos/piloto17.jpg");
+        }
+
+        .driver18 {
+            @include driver ("../images/pilotos/piloto18.jpg");
+        }
+
+        .driver19 {
+            @include driver ("../images/pilotos/piloto19.jpg");
+        }
+
+        .driver20 {
+            @include driver ("../images/pilotos/piloto20.jpg");
+        }
+    }
+}

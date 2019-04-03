@@ -1,0 +1,83 @@
+.footer {
+    padding: 25px;
+    background-color: $colorforh;
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .info {
+            width: 35%;
+
+            h2 {
+                font-family: Formula1;
+                font-size: 1.5rem;
+                color: #fff;
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-family: TitilliumWeb;
+                color: #fff;
+                text-align: justify;
+                font-size: 1rem;
+            }
+        }
+
+        .redes {
+            padding-left: 25px;
+            width: 30%;
+
+            h2 {
+                font-family: Formula1;
+                font-size: 1.5rem;
+                color: #fff;
+                margin-bottom: 15px;
+            }
+
+            table {
+                tr {
+                    td {
+                        font-family: TitilliumWeb;
+                        color: #fff;
+                        font-size: 1rem;
+                        text-align: justify;
+
+                        img {
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contacto {
+            width: 35%;
+
+            h2 {
+                font-family: Formula1;
+                font-size: 1.5rem;
+                color: #fff;
+                margin-bottom: 15px;
+            }
+
+            table {
+                tr {
+                    td {
+                        font-family: TitilliumWeb;
+                        color: #fff;
+                        font-size: 1rem;
+                        text-align: justify;
+
+                        img {
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

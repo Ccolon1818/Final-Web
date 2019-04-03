@@ -1,0 +1,196 @@
+.details {
+    width: 100%;
+
+    .wrapper {
+        margin: auto;
+        width: 95%;
+        background-color: #fff;
+
+        h1 {
+            margin: 30px 0px;
+            padding-top: 75px;
+            font-family: Formula1;
+            font-size: 2.5rem;
+            font-weight: 100;
+            padding-left: 50px;
+        }
+
+        .section {
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+
+            .info {
+                background-color: #fff;
+                width: 50%;
+                padding: 0px 40px 0 40px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                .top {
+                    margin: 20px 5px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+
+                    img {
+                        width: 270px;
+                        margin-right: 10px;
+                    }
+
+                    .datos {
+                        margin-right: 25px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-content: space-around;
+
+                        a {
+                            font-family: $fontfor;
+                            font-size: 16px;
+                            margin: 7px 0px;
+                            color: $colorfor;
+                        }
+                    }
+                }
+
+                .down {
+                    table {
+                        tr {
+                            td {
+                                .h2 {
+                                    font-family: $fontfor;
+                                    font-size: 15px;
+                                    margin: 5px 0px;
+                                    border-right: 10px solid #fff;
+                                }
+
+                                .par {
+                                    font-family: $fontfor;
+                                    font-size: 12px;
+                                    margin: 6px 0px;
+                                    font-weight: normal;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .pilotos {
+                width: 50%;
+                height: 500px;
+                display: flex;
+                flex-direction: row;
+
+                .pil1 {
+                    @include imgPilotos ("../images/pilotos/piloto1.jpg");
+                }
+
+                .pil2 {
+                    @include imgPilotos ("../images/pilotos/piloto2.jpg")
+                }
+
+                .pil3 {
+                    @include imgPilotos ("../images/pilotos/piloto3.jpg");
+                }
+
+                .pil4 {
+                    @include imgPilotos ("../images/pilotos/piloto4.jpg")
+                }
+
+                .pil5 {
+                    @include imgPilotos ("../images/pilotos/piloto5.jpg");
+                }
+
+                .pil6 {
+                    @include imgPilotos ("../images/pilotos/piloto6.jpg")
+                }
+
+                .pil7 {
+                    @include imgPilotos ("../images/pilotos/piloto7.jpg");
+                }
+
+                .pil8 {
+                    @include imgPilotos ("../images/pilotos/piloto8.jpg")
+                }
+
+                .pil9 {
+                    @include imgPilotos ("../images/pilotos/piloto9.jpg");
+                }
+
+                .pil10 {
+                    @include imgPilotos ("../images/pilotos/piloto10.jpg")
+                }
+
+                .pil11 {
+                    @include imgPilotos ("../images/pilotos/piloto11.jpg");
+                }
+
+                .pil12 {
+                    @include imgPilotos ("../images/pilotos/piloto12.jpg")
+                }
+
+                .pil13 {
+                    @include imgPilotos ("../images/pilotos/piloto13.jpg");
+                }
+
+                .pil14 {
+                    @include imgPilotos ("../images/pilotos/piloto14.jpg")
+                }
+
+                .pil15 {
+                    @include imgPilotos ("../images/pilotos/piloto15.jpg");
+                }
+
+                .pil16 {
+                    @include imgPilotos ("../images/pilotos/piloto16.jpg")
+                }
+
+                .pil17 {
+                    @include imgPilotos ("../images/pilotos/piloto17.jpg");
+                }
+
+                .pil18 {
+                    @include imgPilotos ("../images/pilotos/piloto18.jpg")
+                }
+
+                .pil19 {
+                    @include imgPilotos ("../images/pilotos/piloto19.jpg");
+                }
+
+                .pil20 {
+                    @include imgPilotos ("../images/pilotos/piloto20.jpg")
+                }
+            }
+        }
+
+        .imgBig {
+            width: 95%;
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        .contenido {
+            width: 95%;
+            margin: auto;
+
+            h2 {
+                font-family: $fontfor;
+                font-size: 1rem;
+                margin: 20px 0px;
+            }
+
+            p {
+                font-family: $fontpar;
+                font-size: 1.1rem;
+                text-align: justify;
+                line-height: 1.625;
+                font-weight: 300;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

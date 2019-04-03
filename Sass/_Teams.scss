@@ -1,0 +1,39 @@
+.equipo1 {
+    @include colorTeam (#00d2be, "../images/primera.jpg");
+}
+
+.equipo2 {
+    @include colorTeam (#DC0000, "../images/segunda.jpg");
+}
+
+.equipo3 {
+    @include colorTeam (#1E41FF, "../images/tercera.jpg");
+}
+
+.equipo4 {
+    @include colorTeam (#BD9E57, "../images/cuarta.jpg");
+}
+
+.equipo5 {
+    @include colorTeam (#FFF500, "../images/quinta.jpg");
+}
+
+.equipo6 {
+    @include colorTeam (#9B0000, "../images/sexta.jpg");
+}
+
+.equipo7 {
+    @include colorTeam (#F596C8, "../images/septima.jpg");
+}
+
+.equipo8 {
+    @include colorTeam (#469BFF, "../images/octava.jpg");
+}
+
+.equipo9 {
+    @include colorTeam (#FF8700, "../images/novena.jpg");
+}
+
+.equipo10 {
+    @include colorTeam (#FFFFFF, "../images/decima.jpg");
+}

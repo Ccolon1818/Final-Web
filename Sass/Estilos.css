@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box; }
+  * .master {
+    display: flex; }
+    * .master header {
+      display: flex;
+      flex-direction: row; }
+
+/*# sourceMappingURL=Estilos.css.map */

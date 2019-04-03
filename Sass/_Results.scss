@@ -1,0 +1,41 @@
+.resultados {
+    margin-top: 60px;
+    width: 100%;
+
+    table {
+        width: 100%;
+        border: none;
+        border-collapse: collapse;
+
+        thead {
+            background-color: $colorforh;
+            border: 0px;
+
+            tr {
+                th {
+                    color: #fff;
+                    font-family: Formula1;
+                    padding: 15px;
+                    padding-left: 10px;
+                    text-align: left;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    font-family: TitilliumWeb;
+                    font-size: 15px;
+                    padding: 10px;
+                }
+
+                &:nth-child(even) {
+                    background-color: #bbbbbb;
+                }
+            }
+
+
+        }
+    }
+}
